@@ -28,3 +28,6 @@ To predict the model, execute the following command in your terminal:
 
 ```bash
 python predict.py input_image checkpoint --top_k K --category_names mapping_file --gpu
+
+python predict.py flowers/test/1/image_06752.jpg checkpoints/checkpoint.pth --top_k 5 --category_names cat_to_name.json --gpu
+
